@@ -40,7 +40,7 @@ function Hero () {
           <br />
           Thayananthan 
         </h1>
-        <h2> Frontend Developer </h2>
+        <h2> Software Engineer Intern </h2>
         <span>
           <a href="https://github.com/" target="_blank">
           <img src={githubIcon} alt="Github icon" />
@@ -50,8 +50,7 @@ function Hero () {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for 
-          commercial business.
+        Passionate about developing modern React web applications, focusing on building scalable and user-friendly solutions.
         </p>
         <a href={Cv} download>
           <button className="hover" > Resume</button>

@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  max-width: 1300px; /* Adjust as needed */
+  margin: 0 auto; /* Center the content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  img {
+    max-width: 250px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+  }
+  
+  a {
+    width: fit-content;
+    text-decoration: none;
+    color: #222;
+    transition: transform 200ms ease-in-out;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if screen is too small */
+  justify-content: center;
+  align-items: flex-start; /* Aligns items at the top */
+  gap: 33px; /* Adds spacing between items */
+  width: 100%;
+  max-width: 1200px; /* Adjust for better alignment */
+  margin: 0 auto; /* Center the content */
+}
+
+.projectCard {
+  width: 270px; /* Set a fixed width */
+  text-align: center;
+}
+
+
+
+.projectCard p {
+  max-width: 250px; /* Reduce width for better alignment */
+  white-space: normal; /* Allow text wrapping */
+  justify-content:left;
+
+}
+
+
+@media (min-width: 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: center;
+  }
+}
