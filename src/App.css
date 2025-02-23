@@ -35,28 +35,21 @@
     gap: 60px;
   }
   
-  h1,
-  h2,
-  h3,
-  p {
+  h1,h2,h3,p {
     color: var(--text-color);
     margin: 0;
     padding: 0;
   }
   
-  h2,
-  h3,
-  p {
+  h2,h3,p {
     font-family: 'Roboto Mono', monospace;
   }
   
-  h1,
-  h2 {
+  h1,h2 {
     text-transform: uppercase;
   }
   
-  h2,
-  h3 {
+  h2,h3 {
     font-size: 20px;
   }
   
