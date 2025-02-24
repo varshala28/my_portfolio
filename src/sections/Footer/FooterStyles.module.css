@@ -1,0 +1,83 @@
+/* Base Footer Styles */
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+}
+
+/* Light Theme */
+.lightTheme {
+  background-color: #f4f1eb; /* Softer beige */
+  color: #333;
+  border-top: 1px solid #ddd;
+}
+
+.lightTheme .nav a {
+  color: #333;
+}
+
+.lightTheme .nav a:hover {
+  color: #ff6600;
+}
+
+/* Dark Theme */
+.darkTheme {
+  background-color: #151521; /* Darker shade to blend with the page */
+  color: #f5f5f5;
+  border-top: 1px solid #222; /* Subtle separation */
+}
+
+.darkTheme .nav a {
+  color: #f5f5f5;
+}
+
+.darkTheme .nav a:hover {
+  color: #1da1f2;
+}
+
+/* Navigation Links */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 12px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Social Media Icons */
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.socialIcons img {
+  width: 24px;
+  transition: opacity 0.3s ease;
+}
+
+.socialIcons a:hover img {
+  opacity: 0.7;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
